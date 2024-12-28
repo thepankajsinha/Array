@@ -1,6 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Approach 1
+//sort the array and return maximum = arr[n-1] and minimum = arr[0]
+// Time Complexity: O(nlogn)
+
+// Approach 2
+// using Linear Search
+// Time Complexity: O(n)
+
 int getMaxElement(int arr[], int n){
     int maxElement = INT_MIN;
     for(int i=0; i<n; i++){
