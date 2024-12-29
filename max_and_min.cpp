@@ -1,9 +1,7 @@
+// Description: Find the maximum and minimum element in an array.
 #include <bits/stdc++.h>
 using namespace std;
 
-// Approach 
-// using Linear Search
-// Time Complexity: O(n)
 
 int getMaxElement(int arr[], int n){
     int maxElement = INT_MIN;
@@ -29,3 +27,12 @@ int main(){
     cout << "Max Element: " << getMaxElement(arr, n) << endl;
     cout << "Min Element: " << getMinElement(arr, n) << endl;
 }
+
+//Output:
+//Max Element: 9
+//Min Element: -7
+
+
+// Approach 
+// using Linear Search
+// Time Complexity: O(n)

@@ -1,12 +1,7 @@
+// Description: Linear Search Algorithm
 #include <bits/stdc++.h>
 using namespace std;
 
-// Approach 
-// 1. Traverse the array and compare each element with the target element
-// 2. If the element is equal to the target element, return the index
-// 3. If the element is not found, return -1
-
-// Time Complexity: O(n)
 
 int linearSearch(int arr[], int n, int target){
     for(int i =0; i<n; i++){
@@ -32,3 +27,8 @@ int main(){
         cout << "Element found at index: " << linearSearch(arr, n, target) << endl;
     }
 }
+
+//Output: Element not found
+
+//Linear Search
+// Time Complexity: O(n)

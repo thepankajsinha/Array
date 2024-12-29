@@ -1,10 +1,7 @@
+// Description: Find the second largest element in an array.
 #include <bits/stdc++.h>
 using namespace std;
 
-
-// Approach
-// using Linear Search
-// Time Complexity: O(n)
 
 int secondLargestElement(int arr[], int n){
     int largest = INT_MIN;
@@ -33,3 +30,11 @@ int main(){
 
     cout << "Second Largest Element: " << secondLargestElement(arr, n) << endl;
 }
+
+//Output:
+//Second Largest Element: 8
+
+
+// Approach
+// using Linear Search
+// Time Complexity: O(n)

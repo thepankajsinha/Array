@@ -5,7 +5,7 @@ using namespace std;
 
 // Approach 1
 // using Set
-// Time Complexity: O(nlogn)
+// Time Complexity: O(nlogn) because insert operation in set takes logn time complexity and we are inserting n elements in set
 
 int removeDuplicateUsingSet(int arr[], int n){
    set <int> st;
@@ -55,3 +55,5 @@ int main(){
         cout << arr[i] << " ";
     }
 }
+
+//Output: 1 2 3

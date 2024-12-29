@@ -1,9 +1,7 @@
+//Rotate an array by k places to the left using extra space 
 #include <bits/stdc++.h>
 using namespace std;
 
-
-//approach
-//Time Complexity: O(n)
 
 void leftRotateByKPlaces(int arr[], int n, int d){
     
@@ -42,3 +40,8 @@ int main(){
         cout<<arr[i]<<" ";
     }
 }
+
+//Output: 3 4 5 1 2
+
+//approach
+//Time Complexity: O(n)

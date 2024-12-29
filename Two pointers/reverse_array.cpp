@@ -1,9 +1,7 @@
+//Reverse the array 
 #include <bits/stdc++.h>
 using namespace std;
 
-// Approach
-//using two pointers
-// Time Complexity: O(n)
 
 void reverseArray(int arr[], int n){
     int start = 0;
@@ -28,3 +26,9 @@ int main(){
         cout << arr[i] << " ";
     }
 }
+
+//Output: -2 9 -4 1 -6 2 -7 8 -3 5
+
+// Approach
+//using two pointers
+// Time Complexity: O(n)

@@ -1,10 +1,7 @@
+//Rotate an array by 1 place to the left 
 #include <bits/stdc++.h>
 using namespace std;
 
-
-//approach
-//using Linear Search
-//Time Complexity: O(n)
 
 void leftRotateByOne(int arr[], int n){
     int temp = arr[0];
@@ -14,6 +11,7 @@ void leftRotateByOne(int arr[], int n){
     }
     arr[n-1] = temp;
 }
+
 
 int main(){
     int arr[] = {1,2,3,4,5};
@@ -25,3 +23,10 @@ int main(){
         cout<<arr[i]<<" ";
     }
 }
+
+//Output: 2 3 4 5 1
+
+
+//approach
+//using Linear Search
+//Time Complexity: O(n)

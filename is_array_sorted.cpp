@@ -1,9 +1,7 @@
+// Description: Check if the array is sorted or not.
 #include <bits/stdc++.h>
 using namespace std;
 
-// Approach
-//using Linear Search
-// Time Complexity: O(n)
 
 bool isArraySorted(int arr[], int n){
     for(int i=0; i<n-1; i++){
@@ -26,3 +24,9 @@ int main(){
         cout << "Array is not sorted" << endl;
     }
 }
+
+//Output: Array is sorted
+
+// Approach
+//using Linear Search
+// Time Complexity: O(n)
