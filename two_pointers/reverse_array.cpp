@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Approach
+// using Two Pointers
+// Time Complexity: O(n)
 
 void reverseArray(int arr[], int n){
     int start = 0;

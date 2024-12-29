@@ -1,11 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Approach 1
-//sort the array and return maximum = arr[n-1] and minimum = arr[0]
-// Time Complexity: O(nlogn)
-
-// Approach 2
+// Approach 
 // using Linear Search
 // Time Complexity: O(n)
 
