@@ -2,7 +2,11 @@
 using namespace std;
 
 // Approach
-// using Bitwise XOR operator and Linear Search
+// 1. XOR of a number with itself is 0 ex: 1^1 = 0
+// 2. XOR of a number with 0 is the number itself ex: 1^0 = 1
+// 3. XOR is commutative and associative ex: 1^2^3 = 3^2^1
+// 4. XOR of all elements in the array will give the unique element in the array
+
 // Time Complexity: O(n)
 
 int uniqueElementInArray(int arr[], int n){

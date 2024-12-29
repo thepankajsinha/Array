@@ -2,7 +2,10 @@
 using namespace std;
 
 // Approach 
-// Linear Search
+// 1. Traverse the array and compare each element with the target element
+// 2. If the element is equal to the target element, return the index
+// 3. If the element is not found, return -1
+
 // Time Complexity: O(n)
 
 int linearSearch(int arr[], int n, int target){

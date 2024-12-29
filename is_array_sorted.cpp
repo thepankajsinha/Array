@@ -2,7 +2,7 @@
 using namespace std;
 
 // Approach
-// using Linear Search
+//using Linear Search
 // Time Complexity: O(n)
 
 bool isArraySorted(int arr[], int n){

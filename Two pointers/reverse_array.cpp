@@ -2,7 +2,7 @@
 using namespace std;
 
 // Approach
-// using Two Pointers
+//using two pointers
 // Time Complexity: O(n)
 
 void reverseArray(int arr[], int n){
